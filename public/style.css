@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row1 {
+    position: relative;
+    top: -430px;
+    margin-right: 20%;
+    text-align: right;
+    left: 1015px;
+    width: 250px;
+    height: 46px;
+    color: white;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.row1>button {
+    background: none;
+border: none;
+}
+
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 113px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 43%;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+    font-size: 36px;
+    top: -240px;
+}
+
+.locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.locationdropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+
+}
+
+.search-box-wrapper {
+    position: relative;
+    margin-left: 20%;
+
+    text-align: center;
+    border: #192f60;
+}
+
+.searchtherestaurant {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+
+    padding-left: 30px;
+
+}
+
+.search-icon {
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -35px;
+}
+
+.quicksearchheading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+.quicksearchsubheading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.col-sm-12 col-md-6 col-lg-4 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-12 col-md-12 col-lg-4 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tilecontainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px grey;
+    float: left;
+}
+
+.tilecomponent1 {
+    width: 45%;
+    float: left;
+}
+
+.tilecomponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.componentheading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.componentsubheading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+@media only screen and (min-width: 100px) and (max-width: 1500px){
+.row1 {
+    position: relative;
+    top: -430px;
+    margin-right: 20%;
+    text-align: right;
+    left: 1015px;
+    width: 250px;
+    height: 46px;
+    color: white;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.row1>button {
+    background: none;
+border: none;
+}
+
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 113px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 43%;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+    font-size: 36px;
+    top: -240px;
+}
+.locationSelector{ 
+ position: relative;
+    top: -238px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.locationdropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+
+}
+
+.search-box-wrapper {
+    position: relative;
+    margin-left: 20%;
+
+    text-align: center;
+    border: #192f60;
+}
+
+.searchtherestaurant {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+
+    padding-left: 30px;
+
+}
+
+.search-icon {
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -35px;
+}
+
+.quicksearchheading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+.quicksearchsubheading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.col-sm-12 col-md-6 col-lg-4 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-12 col-md-12 col-lg-4 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tilecontainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px grey;
+    float: left;
+}
+
+.tilecomponent1 {
+    width: 45%;
+    float: left;
+}
+
+.tilecomponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.componentheading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.componentsubheading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+}
